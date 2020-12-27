@@ -1,0 +1,1 @@
+{"version":3,"sources":["admin.scss"],"names":[],"mappings":"AAAA;EACI,8CAA8C;EAC9C,sBAAsB;EACtB,2BAA2B;EAC3B,gBAAgB;EAChB,aAAa,EAAA","file":"admin.css","sourcesContent":[".adminUser1{\r\n    background: url(../images/emir.jpeg) no-repeat;\r\n    background-size: cover;\r\n    background-position: center;\r\n    min-width: 141px;\r\n    height: 141px;\r\n}"]}

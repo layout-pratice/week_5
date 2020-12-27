@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    admin
+  </title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="container-fluid h-100 p-0">
+    <div class="row h-100 no-gutters">
+      <div class="col-3 d-flex flex-column justify-content-between h-100 bg-secondary pt-5">
+        <div>
+          <h1 class="logo hideWord ml-4 "><a href="">answer</a></h1>
+          <!-- 列表 -->
+          <ul class="list-group border-0">
+
+            <li class=" list-group-item  list-group-action  bg-secondary  border-0 pl-4">
+              <h2 class=""><a href="" class="d-flex align-items-center "><span class="material-icons pr-3 ">
+                    assessment
+                  </span>
+                  Dashboard
+                </a></h2>
+            </li>
+            <li class=" list-group-item  list-group-action bg-secondary  border-0 pl-4">
+              <h2 class=""><a href="" class="d-flex align-items-center "><span class="material-icons pr-3 ">
+                    question_answer
+                  </span>
+                  Question
+                </a></h2>
+            </li>
+            <li class=" list-group-item  list-group-action   bg-secondary  border-0 pl-4">
+              <h2 class=""><a href="assignment.html" class="d-flex align-items-center "><span
+                    class="material-icons pr-3 ">
+                    assignment
+                  </span>
+                  Assignment
+                </a></h2>
+            </li>
+            <li class=" list-group-item  list-group-action bg-secondary  border-0 pl-4">
+              <h2 class=""><a href="" class="d-flex align-items-center "><span class="material-icons pr-3 ">
+                    video_library
+                  </span>
+                  Course
+                </a></h2>
+            </li>
+            <li class=" list-group-item  list-group-action bg-secondary  border-0 pl-4">
+              <h2 class=""><a href="admin.html" class="d-flex align-items-center "><span class="material-icons pr-3 ">
+                    group
+                  </span>
+                  Admin
+                </a></h2>
+            </li>
+            <li class=" list-group-item  list-group-action bg-secondary  border-0 pl-4">
+              <h2 class=""><a href="" class="d-flex align-items-center "><span class="material-icons pr-3 ">
+                    settings
+                  </span>
+                  Settings
+                </a></h2>
+            </li>
+          </ul>
+        </div>
+        <!-- 用戶人 -->
+        <div class="d-flex align-items-center p-4">
+
+          <div class="userPic rounded-circle mr-3"></div>
+          <div>
+            <h3>Andy Chen
+              <h3 class="text-size-s grey-500 font-weight-normal">andy0401@mail.com
+          </div>
+        </div>
+      </div>
+      <div class="col-9 pt-5">
+        <div class="container ">
+    <ul class="row flex-nowrap list-style-none p-0 mb-6">
+        <li class="col-2">
+            <h2 class="text-size-xl text-lh-xl">Admin</h2>
+        </li>
+        <li class="col-8 d-flex  align-items-center"><span class="material-icons text-primary mr-2">
+                add
+            </span>Add New Admin </li>
+        <li class="col-2 d-flex align-items-center justify-content-end ">
+            <span class="material-icons mr-4">
+                search
+            </span>
+            <span class="material-icons mr-3">
+                notifications_active
+            </span>
+        </li>
+    </ul>
+    <table class="table table-hover w-100 mb-7">
+        <thead>
+            <tr class="table-borderless ">
+                <th scope="col" class="d-flex align-items-center border-0">ID<span class="material-icons text-primary">
+                        arrow_downward
+                    </span>
+                </th>
+                <th scope="col " class="border-0">Name</th>
+                <th scope="col" class="border-0"> Email</th>
+                <th scope="col" class="border-0">Verified</th>
+                <th scope="col" class="border-0 p-0 hideWord">none</th>
+            </tr>
+
+        </thead>
+        <tbody>
+
+            <tr class="">
+                <td class="border-top border-dark">#1</th>
+                <td class="border-top border-dark ">Emir Wicks</td>
+                <td class="border-top border-dark ">emir.wicks@mail.com</td>
+                <td class="border-top border-dark ">Yes</td>
+                <td class="d-flex justify-content-end border-top border-dark">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary cursor-pointer " data-toggle="collapse" href="#modified">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters collapse flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4" id="modified">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="">#2</td>
+                <td class=" ">Zaina Goldsmith</td>
+                <td class=" ">zaina.goldsmith@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="">#3</td>
+                <td class=" ">Mahima Lopez</td>
+                <td class=" ">Mahima.Lopez@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="">#4</td>
+                <td class=" ">Pharrell Murray</td>
+                <td class=" ">Pharrell.Murray@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="">#5</td>
+                <td class=" ">Annika Mcbride</td>
+                <td class=" ">Annika.Mcbride@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="">#6</td>
+                <td class=" ">Fatimah Clark</td>
+                <td class=" ">Fatimah.Clark@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="">#7</td>
+                <td class=" ">Klaudia Rhodes</td>
+                <td class=" ">Klaudia.Rhodes@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="">#8</td>
+                <td class=" ">Tillie Lucero</td>
+                <td class=" ">Tillie.Lucero@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="">#9</td>
+                <td class=" ">Sabrina Stephenson</td>
+                <td class=" ">Sabrina.Stephenson@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 col-5 p-3"></div>
+
+                                    <!-- <img src="./assets/images/emir.jpeg" class="col-5 p-3"  alt=""> -->
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-xl mb-2">Emir Wicks</h3>
+                                        <h4 class="mb-3 text-size-s text-lh-m grey-500">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300 pt-1 pb-1 pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="border-bottom border-grey-300">
+                <td class="">#10</td>
+                <td class=" ">Annie Smith</td>
+                <td class=" ">Annie.Smith@mail.com</td>
+                <td class=" ">Yes</td>
+                <td class="d-flex justify-content-end ">
+                    <a href="" class="material-icons mr-4" data-toggle="modal" data-target="#inf">remove_red_eye</a>
+                    <!-- modal -->
+
+                    <div class="modal fade" id="inf" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered border-0" role="document">
+                            <div class="row no-gutters flex-column align-items-end modal-content p-4">
+                                <div class="col-12 row no-gutters flex-nowrap modal-body p-0 ">
+                                    <div class="adminUser1 m-3"></div>
+                    
+                                    <div class="col-7 ml-2 pr-5 pt-3 pb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <h3>#1</h3>
+                                            <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                        </div>
+                                        <p class="mb-0">Admin</p>
+                                        <h3  class="text-size-xl text-lh-m ">Emir Wicks</h3>
+                                        <h4 class=" text-size-s text-lh-m grey-500  mb-3">
+                                            emir.wicks@mail.com
+                                        </h4>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <p class="d-inline bg-grey-300  pr-2 pl-2 mb-0">verified</p>
+                                            <span class="material-icons text-primary">
+                                                keyboard_arrow_up
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 row no-gutters flex-nowrap modal-footer border-0 pb-2 pt-3 pl-4 pr-4">
+                                    <button type="button" class="col-7 btn btn-outline-warning "
+                                        data-dismiss="modal">deactivate</button>
+                                    <button type="button" class="col-5 btn btn-primary ">edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="material-icons" data-toggle="modal" data-target="#editAdmin">create
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="editAdmin" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 pr-4 pl-4 ml-2 mr-2">
+                                    <h3 class="modal-title  text-size-xl text-lh-xl ">Edit Admin</h5>
+                                        <button type="button" class="close bg-white border-0" data-dismiss="modal"
+                                            aria-label="Close">
+                                            <span class="material-icons">
+                                                close
+                                            </span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="pr-4 pl-4">
+                                        <div class="border-bottom border-info mb-4 pb-4 ">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Account</h4>
+                                            <div class="form-group m-0">
+
+                                                <label for="name " class="mb-1">Name</label>
+                                                <input type="text" class="form-control  mb-3 pt-3 pb-3" id="name"
+                                                    style="height: 51px;" placeholder="Emir Wicks" disabled>
+                                            </div>
+                                            <div class="form-group m-0">
+
+                                                <label for="Email " class="mb-1">Email</label>
+                                                <input type="text" class="form-control mb-3 pt-3 pb-3" id="email"
+                                                    style="height: 51px;" placeholder="emir.wicks@mail.com" disabled>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Verification</h4>
+                                            <div class="d-flex justify-content-between  mb-3">
+                                                <div class="d-flex align-items-center"><span
+                                                        class="material-icons text-primary mr-2">
+                                                        check_circle
+                                                    </span>Verified</div>
+                                                <p>2020/4/12</p>
+                                            </div>
+                                            <button class="btn btn-outline-primary w-100 pt-3 pb-3">Send Verification
+                                                Mail</button>
+                                        </div>
+                                        <!-- ======== -->
+
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <div class="form-group m-0">
+                                                <label class="text-size-l text-lh-xl mb-3" for="accessLevel">Access
+                                                    Level</label>
+                                                <select id="accessLevel" class="form-control  " style="height: 51px;">
+                                                    <option selected>Admin</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="border-bottom border-info mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Custom Access</h4>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                            <div class="form-check  mb-3">
+                                                <input class="form-check-input" type="checkbox" id="coupon"
+                                                    value="option2">
+                                                <label class="form-check-label" for="coupon">Coupon</label>
+                                            </div>
+                                            <div class="form-check  ">
+                                                <input class="form-check-input" type="checkbox" id="lecture"
+                                                    value="option1">
+                                                <label class="form-check-label" for="lecture">lecture</label>
+                                            </div>
+                                        </div>
+                                        <!-- ======== -->
+                                        <div class="mb-4 pb-4">
+                                            <h4 class="text-size-l text-lh-xl mb-3">Deactivate Account</h4>
+                                            <div class="d-flex align-items-center text-warning mb-3">
+                                                <span class="material-icons mr-2">
+                                                    warning
+                                                </span>
+                                                This cannot be undone!
+                                            </div>
+                                            <button class="btn btn-outline-warning w-100 pt-3 pb-3">Deactivate This
+                                                Account</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-primary"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <nav aria-label="Page navigation example ">
+        <ul class="pagination justify-content-end">
+            <li class="page-item">
+                <a class="page-link border-primary p-1" href="#" aria-label="Previous">
+                    <span class="material-icons d-block">
+                        keyboard_arrow_left
+                    </span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link border-primary text-dark text-lh-m pt-1 pb-1" style="width: 32px;"
+                    href="#">1</a></li>
+            <li class="page-item"><a class="page-link border-primary text-dark text-lh-m pt-1 pb-1" style="width: 32px;"
+                    href="#">2</a></li>
+            <li class="page-item "><a class="page-link border-primary text-dark text-lh-m pt-1 pb-1 "
+                    style="width: 32px;" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link border-primary p-1" href="#" aria-label="Next">
+                    <span class="material-icons d-block">
+                        keyboard_arrow_right
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/h2opper.js/1.14.6/umd/h2opper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
